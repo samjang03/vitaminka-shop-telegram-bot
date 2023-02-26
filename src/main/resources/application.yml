@@ -1,0 +1,14 @@
+bot:
+  username: vitaminka_shop_bot
+  token: 6082697440:AAFN2Q6-6MIqxA5jOKm6-xpNHvwyTD25N_M
+  providerToken: 632593626:TEST:sandbox_i27849087224
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/supplements_store
+    username: root
+    password: root351
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL8Dialect
