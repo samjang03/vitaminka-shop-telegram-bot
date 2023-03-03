@@ -18,6 +18,8 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private int id;
+    @Column(name = "sup_id")
+    private int sup_id;
     @Column(name = "name")
     private String name;
     @Column(name = "phone_number")
